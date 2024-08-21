@@ -6,7 +6,7 @@ const oldCivic = {
   name: 'civic',
   year: new Date(),
   broken: true,
-  summary():string {
+  summary(): string {
     return this.name + this.year + ' is borken:' + this.broken;
   },
 };
